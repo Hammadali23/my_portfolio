@@ -5,8 +5,13 @@ import Link from "next/link";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  // Function to handle link click
+  const handleLinkClick = () => {
+    setIsOpen(false); // Close the dropdown menu
+  };
+
   return (
-    <nav className="bg-gray-800 text-white">
+    <nav className="bg-gray-800 text-white fixed top-0 left-0 w-full z-20">
       <div className="container mx-auto flex items-center justify-between p-4">
         {/* Logo */}
         <div className="text-2xl font-bold">
@@ -49,13 +54,14 @@ const Navbar = () => {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } lg:flex lg:space-x-8 absolute lg:static top-0 left-0 w-full lg:w-auto bg-gray-800 lg:bg-transparent z-10`}
+          } lg:flex lg:space-x-8 absolute lg:static top-16 lg:top-auto left-0 w-full lg:w-auto bg-gray-800 lg:bg-transparent`}
         >
           <ul className="flex flex-col lg:flex-row lg:items-center space-y-4 lg:space-y-0 lg:space-x-8 p-4 lg:p-0">
             <li>
               <Link
                 href="/"
                 className="block text-lg hover:text-green-400 transform transition-transform duration-300"
+                onClick={handleLinkClick} // Close dropdown on click
               >
                 Home
               </Link>
@@ -64,6 +70,7 @@ const Navbar = () => {
               <Link
                 href="/about"
                 className="block text-lg hover:text-green-400 transform transition-transform duration-300"
+                onClick={handleLinkClick} // Close dropdown on click
               >
                 About
               </Link>
@@ -72,6 +79,7 @@ const Navbar = () => {
               <Link
                 href="/skills"
                 className="block text-lg hover:text-green-400 transform transition-transform duration-300"
+                onClick={handleLinkClick} // Close dropdown on click
               >
                 Skills
               </Link>
@@ -80,6 +88,7 @@ const Navbar = () => {
               <Link
                 href="/experience"
                 className="block text-lg hover:text-green-400 transform transition-transform duration-300"
+                onClick={handleLinkClick} // Close dropdown on click
               >
                 Experience
               </Link>
@@ -88,6 +97,7 @@ const Navbar = () => {
               <Link
                 href="/education"
                 className="block text-lg hover:text-green-400 transform transition-transform duration-300"
+                onClick={handleLinkClick} // Close dropdown on click
               >
                 Education
               </Link>
@@ -96,6 +106,7 @@ const Navbar = () => {
               <Link
                 href="/contact"
                 className="block text-lg hover:text-green-400 transform transition-transform duration-300"
+                onClick={handleLinkClick} // Close dropdown on click
               >
                 Contact
               </Link>
