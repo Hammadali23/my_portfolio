@@ -3,7 +3,7 @@ import { FaCode, FaHtml5, FaCss3Alt, FaJs, FaPaintBrush, FaBullhorn, FaLaptopCod
 
 export default function Skills() {
   const skills = [
-    { name: "Web Development", icon: <FaCode /> },
+    { name: "Frontend Development", icon: <FaCode /> },
     { name: "HTML", icon: <FaHtml5 /> },
     { name: "CSS", icon: <FaCss3Alt /> },
     { name: "JavaScript", icon: <FaJs /> },
