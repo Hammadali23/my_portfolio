@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div className="bg-gradient-to-r from-blue-500 to-green-800 text-white min-h-screen">
       <div className="flex flex-col items-center px-4">
-        <h2 className="text-2xl md:text-4xl mt-4 font-semibold mb-4 marquee-left text-center">
+        <h2 className="text-2xl md:text-4xl mt-20 font-semibold mb-4 marquee-left text-center">
           Welcome To My Portfolio
         </h2>
       </div>
