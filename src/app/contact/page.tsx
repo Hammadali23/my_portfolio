@@ -12,7 +12,7 @@ export default function Contact() {
         <div className="bg-blue-950 text-white min-h-screen flex items-center justify-center py-12 px-8">
           <div className="container mx-auto grid lg:grid-cols-2 gap-8 items-center">
             {/* Left Side: Contact Form */}
-            <div className="bg-gray-900 p-8 rounded-lg shadow-lg mt-8 ">
+            <div className="bg-gray-900 p-8 rounded-lg shadow-lg ">
               <h2 className="text-3xl font-bold text-center mb-6">Contact Us</h2>
               <form className="space-y-6">
                 {/* Name Input */}
