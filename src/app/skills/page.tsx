@@ -22,7 +22,7 @@ export default function Skills() {
         <h2 className="text-5xl font-bold mb-8 mt-24 text-cyan-300 text-center animate-scale-up-down underline">
           Skills
         </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-1 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-1 gap-4">
           {skills.map((skill, index) => (
             <div
               key={index}
