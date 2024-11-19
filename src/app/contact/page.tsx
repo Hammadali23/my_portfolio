@@ -97,10 +97,10 @@ export default function Contact() {
                   <p>RKV House No 555, Model Colony, Karachi</p>
                 </div>
                 {/* Social Media Links */}
-                <div className='text-xl text-red-400'>
-                  <p>Vist My Social Media Accounts</p>
-                </div>
-                <div className="flex space-x-8 ">
+                <h1 className="text-3xl font-bold text-center mb-8 mt-24  text-cyan-200 animate-scale-up-down">
+                Get in Touch
+                </h1>
+                <div className="flex space-x-8 justify-center pt-2">
                   <a href="https://www.facebook.com/profile.php?id=61558486799317" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-300 text-2xl">
                     <FaFacebook style={{fontSize: 30}}/>
                   </a>
