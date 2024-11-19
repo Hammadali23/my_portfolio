@@ -9,7 +9,7 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-40 h-screen bg-gradient-to-r from-black to-gray-500 text-white">
         <div className="flex items-center space-x-8 slide-in-left">
           <img
-            src=""
+            src="images/ali.jpg"
             alt="Profile"
             className="w-48 h-48 md:w-72 md:h-72 lg:w-96 lg:h-96 -mt-10 md:-mt-20 rounded-full"
           />
@@ -25,7 +25,7 @@ export default function Home() {
           <p className="text-lg md:text-2xl lg:text-3xl mt-2 border-4 border-green-600 slide-in-left p-2 lg:p-4">
             Frontend Developer | UI/UX Enthusiast
           </p>
-          <a href="hammad.cv.pdf" download target="_blank" rel="noopener noreferrer">
+          <a href="/hammad.cv.pdf" download target="_blank" rel="noopener noreferrer">
             <div className="flex justify-center lg:justify-start mt-5 slide-in-left">
               <button className="mt-4 px-6 py-3 md:px-8 md:py-4 bg-black text-white rounded-full border-2 text-sm md:text-xl hover:bg-green-500 transform transition-transform duration-100 hover:scale-110">
                 Download Resume
