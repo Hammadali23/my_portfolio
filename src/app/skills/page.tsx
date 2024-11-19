@@ -3,7 +3,7 @@ import { FaCode, FaHtml5, FaCss3Alt, FaJs, FaPaintBrush, FaBullhorn, FaLaptopCod
 
 export default function Skills() {
   const skills = [
-    { name: "Frontend Development", icon: <FaCode /> },
+    { name: "Web Development", icon: <FaCode /> },
     { name: "HTML", icon: <FaHtml5 /> },
     { name: "CSS", icon: <FaCss3Alt /> },
     { name: "JavaScript", icon: <FaJs /> },
@@ -22,7 +22,7 @@ export default function Skills() {
         <h2 className="text-5xl font-bold mb-8 mt-24 text-cyan-300 text-center animate-scale-up-down underline">
           Skills
         </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
           {skills.map((skill, index) => (
             <div
               key={index}
