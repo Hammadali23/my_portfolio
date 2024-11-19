@@ -4,7 +4,7 @@ export default function Skills() {
     return (
       <div className="bg-slate-600  min-h-screen flex  justify-center">
       <div className="container mx-auto p-6">
-        <h2 className="text-5xl font-bold mb-8 mt-8 text-cyan-300 text-center animate-scale-up-down underline">Skills</h2>
+        <h2 className="text-5xl font-bold mb-8 mt-36 text-cyan-300 text-center animate-scale-up-down underline">Skills</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
           {skills.map(skill => (
             <div key={skill} className="p-4 text-2xl items-center bg-blue-200 rounded shadow-md animate-slide-in ">
