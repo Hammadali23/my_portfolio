@@ -100,20 +100,20 @@ export default function Contact() {
                 <h1 className="text-3xl font-bold text-center mb-8 mt-24  text-cyan-200 animate-scale-up-down">
                 Get in Touch
                 </h1>
-                <div className="flex space-x-8 justify-center pt-2">
-                  <a href="https://www.facebook.com/profile.php?id=61558486799317" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-300 text-2xl">
+                <div className="flex space-x-8 justify-center pt-2 ">
+                  <a href="https://www.facebook.com/profile.php?id=61558486799317" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-300 text-2xl transition-transform transform hover:scale-125">
                     <FaFacebook style={{fontSize: 30}}/>
                   </a>
-                  <a href="https://www.instagram.com/ham_mad_alii.99/" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-300 text-2xl">
+                  <a href="https://www.instagram.com/ham_mad_alii.99/" target="_blank" rel="noopener noreferrer" className="text-pink-700 hover:text-pink-300 text-2xl transition-transform transform hover:scale-125">
                     <FaInstagram style={{fontSize: 30}}/>
                   </a>
-                  <a href="https://www.linkedin.com/in/hammad-ali-952480300/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-500 text-2xl">
+                  <a href="https://www.linkedin.com/in/hammad-ali-952480300/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-500 text-2xl transition-transform transform hover:scale-125">
                     <FaLinkedin style={{fontSize: 30}}/>
                   </a>
-                  <a href="https://github.com/Hammadali23" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400 text-2xl">
+                  <a href="https://github.com/Hammadali23" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400 text-2xl transition-transform transform hover:scale-125">
                     <FaGithubSquare style={{fontSize: 30}} />
                   </a>
-                  <a href="https://wa.me/923257059641" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-blue-200 text-2xl">
+                  <a href="https://wa.me/923257059641" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-blue-200 text-2xl transition-transform transform hover:scale-125">
                     <FaWhatsapp style={{fontSize: 30}}/>
                   </a>
                 </div>
