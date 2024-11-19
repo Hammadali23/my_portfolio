@@ -8,7 +8,7 @@ export default function Contact(){
     <div className="bg-slate-600 min-h-screen flex flex-col items-center pt-4 py-12 px-4">
     <div className="">
       <h1 className="text-4xl font-bold text-center mb-8 mt-24 underline text-cyan-300 animate-scale-up-down">Contact Me</h1>
-        <div className="bg-blue-950 text-white min-h-screen flex items-center justify-center  py-24 px-6">
+        <div className="bg-blue-950 text-white min-h-screen flex items-center justify-center  py-16 px-8">
       <div className="container mx-auto grid lg:grid-cols-2 gap-8 items-center">
         {/* Left Side: Contact Form */}
         <div className="bg-gray-900 p-8 rounded-lg shadow-lg mt-8 ">
