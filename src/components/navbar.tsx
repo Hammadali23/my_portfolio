@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState } from "react";
 import Link from "next/link";
 
@@ -13,7 +13,7 @@ const Navbar = () => {
           <Link href="/">My Portfolio</Link>
         </div>
 
-        {/*(Visible on Small Screens)*/}
+        {/* Hamburger Menu (Visible on Small Screens) */}
         <div className="lg:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -45,17 +45,17 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/*Visible on Large Screens)*/}
+        {/* Links Section */}
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } lg:flex lg:space-x-8 absolute lg:static top-16 left-0 w-full lg:w-auto bg-gray-800 lg:bg-transparent`}
+          } lg:flex lg:space-x-8 absolute lg:static top-0 left-0 w-full lg:w-auto bg-gray-800 lg:bg-transparent z-10`}
         >
           <ul className="flex flex-col lg:flex-row lg:items-center space-y-4 lg:space-y-0 lg:space-x-8 p-4 lg:p-0">
             <li>
               <Link
                 href="/"
-                className="block text-lg hover:text-green-400 transform transition-transform duration-300 scale-110 hover:scale-125"
+                className="block text-lg hover:text-green-400 transform transition-transform duration-300"
               >
                 Home
               </Link>
@@ -63,7 +63,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/about"
-                className="block text-lg hover:text-green-400 transform transition-transform duration-300 scale-110 hover:scale-125"
+                className="block text-lg hover:text-green-400 transform transition-transform duration-300"
               >
                 About
               </Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/skills"
-                className="block text-lg hover:text-green-400 transform transition-transform duration-300 scale-110 hover:scale-125"
+                className="block text-lg hover:text-green-400 transform transition-transform duration-300"
               >
                 Skills
               </Link>
@@ -79,7 +79,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/experience"
-                className="block text-lg hover:text-green-400 transform transition-transform duration-300 scale-110 hover:scale-125"
+                className="block text-lg hover:text-green-400 transform transition-transform duration-300"
               >
                 Experience
               </Link>
@@ -87,7 +87,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/education"
-                className="block text-lg hover:text-green-400 transform transition-transform duration-300 scale-110 hover:scale-125"
+                className="block text-lg hover:text-green-400 transform transition-transform duration-300"
               >
                 Education
               </Link>
@@ -95,7 +95,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/contact"
-                className="block text-lg hover:text-green-400 transform transition-transform duration-300 scale-110 hover:scale-125"
+                className="block text-lg hover:text-green-400 transform transition-transform duration-300"
               >
                 Contact
               </Link>
