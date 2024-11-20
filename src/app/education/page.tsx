@@ -37,7 +37,7 @@ export default function Education() {
           <h3 className="text-2xl font-bold"> Center Name:</h3>
           <p className="text-lg">The Professor Acadmey </p> 
           <h3 className="text-2xl font-bold"> Course Including:</h3>
-          <p className="text-lg">Ms-Office <br /> Photoshop CS6</p> 
+          <p className="text-lg">(1) Ms-Office <br /> (2) Photoshop CS6</p> 
           <h3 className="text-2xl font-bold"> Course Period:</h3>
           <p className="text-lg">6 Months Course (Year: 2019)</p>        
         </div>
