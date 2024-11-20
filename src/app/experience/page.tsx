@@ -34,9 +34,9 @@ const Projects: Project[] = [
   },
   {
     title: "Dynamic Resume Builder",
-    description: "A dynamic resume builder using HTML, CSS, and TypeScript.",
-    image: "/dynamic-resume-builder.PNG",
-    link: "", // Valid link
+    description: "A dynamic resume builder created using HTML, CSS, and TypeScript. This tool allows users to input their details, customize sections, and generate a personalized resume. ",
+    image: "/dynamic.jpg",
+    link: "https://dynamic-resume-builder-gilt.vercel.app/", // Valid link
     tech: [
       { id: "html5-dynamic", icon: <FaHtml5 /> },
       { id: "css3-dynamic", icon: <FaCss3Alt /> },
