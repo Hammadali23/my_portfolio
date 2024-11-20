@@ -60,10 +60,10 @@ export default function ProjectsSection() {
   return (
     <div className="bg-slate-600 min-h-screen flex flex-col items-center py-12 px-4">
       <div className="max-w-4xl w-full">
-        <h1 className="text-4xl font-bold text-center mt-12 mb-8 underline text-cyan-300">
+        <h1 className="text-4xl font-bold text-center mt-12 mb-8 underline text-cyan-300 animate-scale-up-down">
           My Projects
         </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 animate-slide-in">
           {Projects.map((project, index) => (
             <div
               key={index}
