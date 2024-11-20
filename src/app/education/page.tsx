@@ -6,9 +6,18 @@ export default function Education() {
       <div className="container mx-auto p-8">
         <h2 className="text-3xl text-white font-semibold mb-4">Matric Education</h2>
         <div className="p-4 bg-gray-100 rounded shadow-md">
-          <h3 className="text-xl font-bold"> Subject : Science</h3>
-          <p className="text-lg">Hazrat Shah Jahnagir Acadmey, Year: 2019 - 2021</p>         
+          <h3 className="text-2xl font-bold"> Subject : Science</h3>
+          <h3 className="text-xl font-bold"> School Name:</h3>
+          <p className="text-lg">Hazrat Shah Jahnagir Acadmey, Year: 2021</p>         
         </div>
+        <div className="container mx-auto mt-8">
+        <h2 className="text-3xl text-white font-semibold mb-4">Intermediate Education</h2>
+        <div className="p-4 bg-gray-100 rounded shadow-md">
+          <h3 className="text-2xl font-bold"> Subject : Pre-Engineering</h3>
+          <h3 className="text-xl font-bold"> Colloge Name:</h3>
+          <p className="text-lg">Allama Iqbal Government Science Colloge , Year: 2022</p>         
+        </div>
+      </div>
       </div>
       </div>
       </div>
