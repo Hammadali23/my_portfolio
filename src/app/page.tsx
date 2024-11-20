@@ -25,7 +25,7 @@ export default function Home() {
           <p className="text-lg md:text-2xl lg:text-3xl mt-2 border-4 border-green-600 slide-in-left p-2 lg:p-4">
             Frontend Developer | UI/UX Enthusiast
           </p>
-          <a href="hammad.cv.pdf" rel="noopener noreferrer">
+          <a href="cv.pdf" rel="noopener noreferrer">
             <div className="flex justify-center lg:justify-start mt-5 slide-in-left">
               <button className="mt-4 px-6 py-3 md:px-8 md:py-4 bg-black text-white rounded-full border-2 text-sm md:text-xl hover:bg-green-500 transform transition-transform duration-100 hover:scale-110">
                 Download Resume
