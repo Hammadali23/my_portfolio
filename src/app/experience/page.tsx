@@ -13,7 +13,7 @@ const Projects: Project[] = [
   {
     title: "Figma Design",
     description: "A Figma Design using HTML, CSS, and TypeScript.",
-    image: "/Public/Images/figma.JPG",
+    image: "/figma.JPG",
     link: "https://figm-design.vercel.app",
     tech: [
       { id: "html5-static", icon: <FaHtml5 /> },
