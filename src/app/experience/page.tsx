@@ -44,6 +44,17 @@ const Projects: Project[] = [
     ],
   },
   {
+    title: "Simple Calculator",
+    description: "A basic calculator built with HTML, CSS, and JavaScript that performs arithmetic operations like addition, subtraction, multiplication, and division. ",
+    image: "/simple.jpg",
+    link: "https://simple-calculator-ten-wheat.vercel.app/", // Valid link
+    tech: [
+      { id: "html5-dynamic", icon: <FaHtml5 /> },
+      { id: "css3-dynamic", icon: <FaCss3Alt /> },
+      { id: "nodejs-dynamic", icon: <FaNodeJs /> },
+    ],
+  },
+  {
     title: "Periodic Table",
     description: "A static periodic table built with HTML and CSS, displaying chemical elements with their symbols and atomic numbers.",
     image: "/periodic",
