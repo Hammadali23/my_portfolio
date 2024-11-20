@@ -12,9 +12,9 @@ interface Project {
 const Projects: Project[] = [
   {
     title: "Figma Design",
-    description: "A Figma Design using HTML, CSS, and TypeScript.",
+    description: "This project brings a Figma design to life using Next.js. It focuses on creating a responsive and dynamic UI, maintaining pixel-perfect accuracy and modern web development standards.",
     image: "/figma.JPG",
-    link: "https://figm-design.vercel.app",
+    link: "https://figm-design.vercel.app/",
     tech: [
       { id: "html5-static", icon: <FaHtml5 /> },
       { id: "css3-static", icon: <FaCss3Alt /> },
@@ -22,10 +22,10 @@ const Projects: Project[] = [
     ],
   },
   {
-    title: "Portfolio Website",
-    description: "My personal portfolio built with Next.js.",
-    image: "/portfolio.png",
-    link: "", // Empty link to be handled
+    title: "Currency Converter",
+    description: "A simple and responsive currency converter built with HTML, CSS, and JavaScript, allowing users to convert currencies using real-time exchange rates.",
+    image: "/calculator.jpg",
+    link: "https://currency-converter-project-nine.vercel.app/", // Empty link to be handled
     tech: [
       { id: "react-portfolio", icon: <FaReact /> },
       { id: "css3-portfolio", icon: <FaCss3Alt /> },
@@ -44,10 +44,10 @@ const Projects: Project[] = [
     ],
   },
   {
-    title: "Editable Resume with Unique Path",
-    description: "Editable resume with a unique path and shareable link.",
-    image: "/resume-builder-with-unique-path.png",
-    link: "", // Ensure the link is valid
+    title: "Periodic Table",
+    description: "A static periodic table built with HTML and CSS, displaying chemical elements with their symbols and atomic numbers.",
+    image: "/periodic",
+    link: "https://periodic-table-iota-seven.vercel.app/", 
     tech: [
       { id: "html5-editable", icon: <FaHtml5 /> },
       { id: "css3-editable", icon: <FaCss3Alt /> },
