@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root {
+  --background: #f8f9fa; /* Default light mode colors */
+  --foreground: #212529;
+}
+
+.dark {
+  --background: #1a202c; /* Dark mode colors */
+  --foreground: #e2e8f0;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -72,11 +90,6 @@ body {
 .slide-in-left {
   animation: slideInLeft 2s ease-out;
 }
-
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 @keyframes fadeIn {
   from {
