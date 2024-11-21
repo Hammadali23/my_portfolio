@@ -9,7 +9,7 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-40 h-screen bg-gradient-to-r from-black to-gray-500 text-white">
         <div className="flex items-center space-x-8 slide-in-left">
           <img
-            src="/ali.jpg"
+            src="/ali.png"
             alt="Profile"
             className="w-48 h-48 md:w-72 md:h-72 lg:w-96 lg:h-96 -mt-10 md:-mt-20 rounded-full"
           />
