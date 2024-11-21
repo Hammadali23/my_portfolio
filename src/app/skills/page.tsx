@@ -17,16 +17,16 @@ export default function Skills() {
   ];
 
   return (
-    <div className="bg-slate-600 min-h-screen flex justify-center bg-background dark:bg-darkBackground text-foreground dark:text-darkForeground">
-      <div className="container mx-auto p-6">
+    <div className="bg-slate-600 min-h-screen flex justify-center">
+      <div className="container mx-auto p-6 ">
         <h2 className="text-5xl font-bold mb-8 mt-24 text-cyan-300 text-center animate-scale-up-down underline">
           Skills
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-1 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-1 gap-4 ">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="p-4 text-2xl flex items-center space-x-4 bg-blue-200 rounded shadow-md animate-slide-in bg-background dark:bg-darkBackground text-foreground dark:text-darkForeground"
+              className="p-4 text-2xl flex items-center space-x-4 bg-blue-200 rounded shadow-md animate-slide-in"
             >
               <span className="text-red-600">{skill.icon}</span>
               <span>{skill.name}</span>
