@@ -4,19 +4,19 @@
 
 
 :root {
-  --background: #f8f9fa; /* Default light mode colors */
+  --background: #f8f9fa; 
   --foreground: #212529;
 }
 
 .dark {
-  --background: #1a202c; /* Dark mode colors */
+  --background: #1a202c;
   --foreground: #e2e8f0;
 }
 
 body {
   background-color: var(--background);
   color: var(--foreground);
-  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  transition: background-color 0.3s, color 0.3s; 
 }
 
 
@@ -104,8 +104,6 @@ body {
   animation: fadeIn 2s ease-in-out;
 }
 
-
-/* styles/globals.css */
 @keyframes slideIn {
   from {
     transform: translateX(-100%);
@@ -121,7 +119,7 @@ body {
   animation: slideIn 1s ease-out;
 }
 
-/* styles/globals.css */
+
 @keyframes scaleUpDown {
   0%, 100% {
     transform: scale(1);

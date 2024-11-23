@@ -49,7 +49,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Links Section */}
+      
         <div
           className={`${
             isOpen ? "block" : "hidden"

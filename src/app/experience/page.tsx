@@ -13,7 +13,7 @@ const Projects: Project[] = [
   {
     title: "Figma Design",
     description: "This project brings a Figma design to life using Next.js. It focuses on creating a responsive and dynamic UI, maintaining pixel-perfect accuracy and modern web development standards.",
-    image: "/images/figma.JPG",
+    image: "/figma.JPG",
     link: "https://figm-design.vercel.app/",
     tech: [
       { id: "html5-static", icon: <FaHtml5 /> },
@@ -24,7 +24,7 @@ const Projects: Project[] = [
   {
     title: "Currency Converter",
     description: "A simple and responsive currency converter built with HTML, CSS, and JavaScript, allowing users to convert currencies using real-time exchange rates.",
-    image: "/images/calculator.jpg",
+    image: "/calculator.jpg",
     link: "https://currency-converter-project-nine.vercel.app/", // Empty link to be handled
     tech: [
       { id: "react-portfolio", icon: <FaReact /> },
@@ -35,7 +35,7 @@ const Projects: Project[] = [
   {
     title: "Dynamic Resume Builder",
     description: "A dynamic resume builder created using HTML, CSS, and TypeScript. This tool allows users to input their details, customize sections, and generate a personalized resume. ",
-    image: "/images/dynamic.jpg",
+    image: "/dynamic.jpg",
     link: "https://dynamic-resume-builder-gilt.vercel.app/", // Valid link
     tech: [
       { id: "html5-dynamic", icon: <FaHtml5 /> },
@@ -46,7 +46,7 @@ const Projects: Project[] = [
   {
     title: "Simple Calculator",
     description: "A basic calculator built with HTML, CSS, and JavaScript that performs arithmetic operations like addition, subtraction, multiplication, and division. ",
-    image: "/images/simple.jpg",
+    image: "/simple.jpg",
     link: "https://simple-calculator-ten-wheat.vercel.app/", // Valid link
     tech: [
       { id: "html5-dynamic", icon: <FaHtml5 /> },
@@ -57,7 +57,7 @@ const Projects: Project[] = [
   {
     title: "Periodic Table",
     description: "A static periodic table built with HTML and CSS, displaying chemical elements with their symbols and atomic numbers.",
-    image: "/images/periodic",
+    image: "/periodic",
     link: "https://periodic-table-iota-seven.vercel.app/", 
     tech: [
       { id: "html5-editable", icon: <FaHtml5 /> },
