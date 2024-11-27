@@ -1,3 +1,4 @@
+import Image from 'next/image'
 export default function Home() {
   return (
     <div className="bg-gradient-to-r from-blue-500 to-green-800 text-white min-h-screen">
@@ -8,11 +9,12 @@ export default function Home() {
       </div>
       <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-40 h-screen bg-gradient-to-r from-black to-gray-500 text-white">
         <div className="flex items-center space-x-8 slide-in-left">
-          <img
-            src="/ali.png"
-            alt="ali"
-            className="w-48 h-48 md:w-72 md:h-72 lg:w-96 lg:h-96 -mt-10 md:-mt-20 rounded-full"
-          />
+        <Image
+      src="/ali.png"
+      alt="Picture of the author"
+      width={500} 
+      height={500}    
+    className='className="w-48 h-48 md:w-72 md:h-72 lg:w-96 lg:h-96 -mt-10 md:-mt-20 rounded-full'/>
         </div>
         <div className="text-center lg:text-right lg:-mt-20 px-4">
           <h1 className="text-xl md:text-3xl text-green-400 mb-6 lg:mb-10 animate-bounce">
