@@ -10,7 +10,7 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-40 h-screen bg-gradient-to-r from-black to-gray-500 text-white">
         <div className="flex items-center space-x-8 slide-in-left">
         <Image
-      src="/ali.png"
+      src="/images/ali.png"
       alt="author"
       width={500} 
       height={500}    
