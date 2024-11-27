@@ -17,7 +17,6 @@ const Navbar = () => {
           <Link href="/">My Portfolio</Link>
         </div>
 
-        {/* (Visible on Small Screens) */}
         <div className="lg:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -49,7 +48,6 @@ const Navbar = () => {
           </button>
         </div>
 
-      
         <div
           className={`${
             isOpen ? "block" : "hidden"
