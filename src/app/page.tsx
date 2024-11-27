@@ -24,7 +24,7 @@ export default function Home() {
             I Am <br />
             Hammad Ali
           </h1>
-          <p className="text-lg md:text-2xl lg:text-3xl mt-2 border-4 border-green-600 slide-in-left p-2 lg:p-4">
+          <p className="text-lg md:text-2xl lg:text-3xl text-center mt-2 border-4 border-green-600 slide-in-left p-2 lg:p-4">
             Frontend Developer | UI/UX Enthusiast
           </p>
           <a href="cv.pdf" rel="noopener noreferrer">
