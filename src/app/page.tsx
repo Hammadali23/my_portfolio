@@ -11,10 +11,10 @@ export default function Home() {
         <div className="flex items-center space-x-8 slide-in-left">
         <Image
       src="/ali.png"
-      alt="Picture of the author"
+      alt="author"
       width={500} 
       height={500}    
-    className='className="w-48 h-48 md:w-72 md:h-72 lg:w-96 lg:h-96 -mt-10 md:-mt-20 rounded-full'/>
+    className="w-48 h-48 md:w-72 md:h-72 lg:w-96 lg:h-96 -mt-10 md:-mt-20 rounded-full"/>
         </div>
         <div className="text-center lg:text-right lg:-mt-20 px-4">
           <h1 className="text-xl md:text-3xl text-green-400 mb-6 lg:mb-10 animate-bounce">
